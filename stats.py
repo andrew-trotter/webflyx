@@ -1,5 +1,4 @@
-def get_book_text():
-  path_to_file = "books/frankenstein.txt"
+def get_book_text(path_to_file):
   print(f"Analyzing book found at {path_to_file}...")
   with open(path_to_file) as f:
     file_contents = f.read()
